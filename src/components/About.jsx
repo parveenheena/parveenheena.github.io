@@ -29,7 +29,7 @@ const About = () => {
 
         <ul className="text-xl mt-10 border-red-600">
           <li>
-          Greetings! I'm Heena, a MERN stack web developer. With a keen eye for detail and a 
+          Greetings! I'm Heena, a Full stack web developer. With a keen eye for detail and a 
           knack for creative problem-solving, I bring a subtle touch to crafting robust and 
           user-friendly digital experiences.
           </li>

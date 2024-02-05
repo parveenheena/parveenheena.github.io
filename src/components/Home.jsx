@@ -29,7 +29,7 @@ const Home = () => {
             Heena Parveen
           </h2>
           <h2 className="text-3xl sm:text-3xl font-bold text-white">
-            I'm a MERN Stack Developer
+            I'm a Full Stack Developer
           </h2>
 
           <div>
