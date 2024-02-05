@@ -43,9 +43,15 @@ const NavBar = () => {
           />
         ))}
         <a
-          href="/Heena_Resume.pdf"
+          href="/Heena_Parveen_Resume.pdf"
           download
           target="_blank"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing",
+              "_blank"
+            );
+          }}
           className="px-4 cursor-pointer capitalize font-medium text-white-500 hover:scale-125 duration-200 hover:text-sky-500 mr-4"
         >
           Resume
@@ -70,8 +76,15 @@ const NavBar = () => {
             />
           ))}
           <a
-            href="https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing"
+            href="/Heena_Parveen_Resume.pdf"
+            download
             target="_blank"
+            onClick={() => {
+              window.open(
+                "https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing",
+                "_blank"
+              );
+            }}
             className="px-4 cursor-pointer capitalize py-6 text-4xl"
           >
             Resume

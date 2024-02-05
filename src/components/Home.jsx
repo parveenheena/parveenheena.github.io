@@ -33,17 +33,40 @@ const Home = () => {
           </h2>
 
           <div>
-            <Link
-              to="portfolio"
+            <a
+              href="/Heena_Parveen_Resume.pdf"
+              download
+              target="_blank"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing",
+                  "_blank"
+                );
+              }}
               smooth
               duration={500}
               className="group text-white w-fit px-6 mt-10 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-400 to-blue-900 cursor-pointer"
             >
-              Portfolio
+              My Resume
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-1" />
               </span>
-            </Link>
+            </a>
+
+            {/* <a
+          href="/Heena_Parveen_Resume.pdf"
+          download
+          target="_blank"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing",
+              "_blank"
+            );
+          }}
+          className="px-4 cursor-pointer capitalize font-medium text-white-500 hover:scale-125 duration-200 hover:text-sky-500 mr-4"
+        >
+          Resume
+        </a> */}
           </div>
         </div>
         <div data-aos="fade-left">
