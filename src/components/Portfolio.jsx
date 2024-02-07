@@ -10,11 +10,11 @@ const Portfolio = () => {
     {
       id: 1,
       src: honestWing,
-      title: "Honest-Wing",
-      tag: "The project Honest-wing, is built with HTML, CSS, and SASS, underwent enhancements to improve aesthetics and the user experience, following the Figma design.",
+      title: "FigmaForge Designs",
+      tag: "FigmaForge Designs is a web project that has been upgraded to improve aesthetics and user experience, aligning closely with Figma's design standards.",
       stack: "HTML, CSS, SASS",
-      link: "https://honest-wing-579.netlify.app/",
-      github: "https://github.com/SourabhBurman/honest-wing-579",
+      link: "https://figmaforge.netlify.app/",
+      github: "https://github.com/SourabhBurman/FigmaForge-Designs",
     },
     {
       id: 2,
