@@ -43,12 +43,12 @@ const NavBar = () => {
           />
         ))}
         <a
-          href="/Heena_Parveen_Resume.pdf"
+          href="/HeenaResume.pdf"
           download
           target="_blank"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing",
+              "https://drive.google.com/file/d/1J4cW_E5CGgNWlhatuyQIVJUlVqVyvLxo/view?usp=sharing",
               "_blank"
             );
           }}
@@ -76,12 +76,12 @@ const NavBar = () => {
             />
           ))}
           <a
-            href="/Heena_Parveen_Resume.pdf"
+            href="/HeenaResume.pdf"
             download
             target="_blank"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1tr86WSzdvMiNzYCwHw0q3Jyvc2RFptxI/view?usp=sharing",
+                "https://drive.google.com/file/d/1J4cW_E5CGgNWlhatuyQIVJUlVqVyvLxo/view?usp=sharing",
                 "_blank"
               );
             }}
